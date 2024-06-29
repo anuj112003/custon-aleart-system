@@ -33,9 +33,9 @@ const App = () => {
             setLoading(false);
         } catch (error) {
             alert('Error sending alert');
-           
+           setmessage('Alert is not sent there is a problem');
         }
-        setmessage('Alert is not sent there is a problem');
+        
     };
 
     return (
