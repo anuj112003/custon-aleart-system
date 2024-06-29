@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 // MongoDB connection
-mongoose.connect('mongodb://localhost/custom_alert_system', {
+mongoose.connect('mongodb+srv://anujs9027536193:ZBoePg6iFe4whSy0@cluster0.khh9baw.mongodb.net/alert-system', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
