@@ -12,7 +12,7 @@ const App = () => {
         setLoading(true);
         try {
             
-            await axios.post('http://localhost:3000/api/subscribers/', { email });
+            await axios.post('https://custon-aleart-system.onrender.com/api/subscribers/', { email });
             alert('Subscribed successfully');
             setmessage('Subscribed successfully');
             
@@ -27,7 +27,7 @@ const App = () => {
         setLoading(true);
         try {
             
-            await axios.post('http://localhost:3000/api/alerts');
+            await axios.post('https://custon-aleart-system.onrender.com/api/alerts');
             alert('Alert sent');
             setmessage('Alert sent');
             setLoading(false);
