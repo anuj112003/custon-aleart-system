@@ -18,7 +18,7 @@ const App = () => {
             
         } catch (error) {
             alert('Error subscribing kuch to gadbad hai');
-            setmessage('Subscribed is not successful user already exist');
+            setmessage('Subscribed is not successful user already exist or input is empty');
         }
         setLoading(false);
     };
