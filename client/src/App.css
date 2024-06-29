@@ -1,6 +1,6 @@
 .body{
-  background-color: aqua;
-  height: 640px;
+  background-color: #f1f5f90d;
+  height: 800px;
 }
 .container{
   display: flex;
